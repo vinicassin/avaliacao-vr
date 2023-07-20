@@ -1,0 +1,58 @@
+[
+  {
+    "id": "desejo-realizar-a-pesquisa-sobre-nossos-produtos-e-estabelecimentos",
+    "uri": "features/exemplos.feature",
+    "keyword": "Funcionalidade",
+    "name": "Desejo realizar a pesquisa sobre nossos produtos e estabelecimentos",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "desejo-realizar-a-pesquisa-sobre-nossos-produtos-e-estabelecimentos;realizar-a-pesquisa-dos-produtos-e-estabelecimentos-com-sucesso",
+        "keyword": "Cenario",
+        "name": "Realizar a pesquisa dos produtos e estabelecimentos com sucesso",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que realizo a pesquisa por estabelecimentos",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/step_default.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382564000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "valido o status code '200'",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/step_default.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78000
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "visualizo aleatoriamente um tipo de estabelecimento",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/step_default.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 671000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
