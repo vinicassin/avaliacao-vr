@@ -3,3 +3,7 @@
 .vscode
 **/node_modules/
 Gemfile.lock
+**/videos/
+**/data/reports/
+package-lock.json
+**/report/

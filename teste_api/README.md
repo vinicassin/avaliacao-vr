@@ -57,6 +57,8 @@ Rodar por ambiente, ambientes são configurados dentro do arquivo support/env e 
 ## Roda todos os cenarios no ambiente dev
   cucumber dev=true
 
+
+## Observações:
 É gerado um relatorio que fica na pasta data/reports.
 
 Gem que serve de auxilio na criação do projeto e Configuração:(Pretest)
