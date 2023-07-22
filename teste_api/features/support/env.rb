@@ -8,8 +8,6 @@ require 'httparty'
 
 if ENV['dev']
   $ambiente = "dev"
-elsif ENV['integracao']
-  $ambiente = "integracao"
 elsif ENV['homolog']
   $ambiente = "homolog"
 elsif ENV['prod']
