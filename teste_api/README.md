@@ -1,4 +1,4 @@
-Definimos como padrões para esse projeto:
+# Definimos como padrões para esse projeto:
 
 Linguagem de programação: Ruby
 
@@ -6,7 +6,7 @@ Linguagem de escrita dos cenários de teste: Cucumber/Gherkin-pt
 
 Pattern: PageObject - https://martinfowler.com/bliki/PageObject.html
 
-Configuração:
+# Configuração:
 
 Baixar a versão 3.2.2 do ruby.
 
@@ -14,7 +14,7 @@ Passos para instalar ruby no windows/mac:
 https://www.ruby-lang.org/en/documentation/installation/
 
 
-### Instalando o Bundler:
+## Instalando o Bundler:
 O bundler é nosso gerenciador de gemas (gem's) que são as dependências do projeto, ele utiliza como referência para o seu trabalho o arquivo Gemfile, que é onde você adiciona todas as dependências do seu projeto.
 
 Pra você utiliza-lo é necessário instalar, executando o comando abaixo no terminal:
@@ -29,7 +29,7 @@ O comando abaixo irá realizar o download e instalação de todas as gemas do ar
 
   - bundle update --bundler
 
-### Executando testes
+## Executando testes
 Para realizar execução dos testes é necessário realizar os comandos abaixo no terminal dentro da pasta do projeto.
 
 Parametros:
